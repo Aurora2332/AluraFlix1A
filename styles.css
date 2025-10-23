@@ -6,7 +6,7 @@ body{
 }
 
 header {
-   border-bottom: solid 2px rgb(42, 89, 177);
+   border-bottom: solid 2px rgb(42, 122, 177);
    padding: 20px;
    font-size: 32px;
    color: rgb(42, 122, 228);
@@ -36,7 +36,7 @@ img   {
      height: 200;
 }
 
-.categoria-videos{
+.categoria-videos {
     display: flex;
     overflow-x: auto;
     gap: 10px;
@@ -45,4 +45,8 @@ img   {
 .categoria{
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.categoria-videos img {
+ opacity: 0.5;
 }
