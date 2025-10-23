@@ -44,11 +44,14 @@ p {
 }
 
 .categoria-videos img {
- opacity:     0.5;
+ opacity: 0.5;
  height: 200;
 }
 
 .categoria-videos img:hover {
     opacity:    1.0;
     border: 1px solid green
+}
+.categoria h2 {
+    color: rgb(42, 122, 228);
 }
